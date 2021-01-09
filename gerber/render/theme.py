@@ -97,6 +97,12 @@ THEMES = {
                   topmask=RenderSettings(COLORS['blue soldermask'], alpha=0.8, invert=True),
                   bottommask=RenderSettings(COLORS['blue soldermask'], alpha=0.8, invert=True)),
 
+    'Red': Theme(name='Red',
+                  top=RenderSettings(COLORS['enig copper']),
+                  bottom=RenderSettings(COLORS['enig copper'], mirror=True),
+                  topmask=RenderSettings(COLORS['red soldermask'], alpha=0.75, invert=True),
+                  bottommask=RenderSettings(COLORS['red soldermask'], alpha=0.75, invert=True)),
+
     'Transparent Copper': Theme(name='Transparent',
                                 background=RenderSettings((0.9, 0.9, 0.9)),
                                 top=RenderSettings(COLORS['red'], alpha=0.5),
